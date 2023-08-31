@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #13293d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: right;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  flex-grow: 1;
+  background-color: white;
+}
+
+article {
+  border-bottom: 1px solid #d8a47f;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+article p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+article ul {
+  margin-left: 20px;
+  font-size: 1rem;
+  list-style: disc;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-column {
+  flex: 1 1 100%; /* Each card takes up the whole line */
+  max-width: 100%; /* Each card takes up the whole line */
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: #232323;
+}
+
+.card-header {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  background-color: #13293d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card:hover,
+.card:hover .card-header {
+  box-shadow: 0px 0px 8px rgba(232, 102, 236, 0.3), 0 0 15px rgba(232, 102, 236, 0.3);
+}
+
+.code-block {
+  flex-grow: 1;
+  margin-top: 20px;
+  padding: 10px;
+  background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+  border-radius: 8px;
+  overflow: auto;
+}
+
+code {
+  font-family: monospace;
+}
+
+footer {
+  background-color: #13293d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  flex-shrink: 0; 
+}
