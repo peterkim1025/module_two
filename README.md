@@ -3,4 +3,4 @@ This repo contains my personal website for module two. It has my personal intere
 
 My page: https://peterkim1025.github.io/module_two/
 
-<img width="1440" alt="Screenshot 2023-08-31 at 4 58 45 PM" src="https://github.com/peterkim1025/module_two/assets/57886218/2449c2f4-406e-4b70-ad67-0dec74907dce">
+<img width="1440" alt="Screenshot 2023-08-31 at 5 19 07 PM" src="https://github.com/peterkim1025/module_two/assets/57886218/c461ef2a-0fd5-40a1-b55e-301cc2d7ced6">
